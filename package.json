@@ -2,9 +2,10 @@
   "name": "simple",
   "version": "1.0.0",
   "description": "very simple boilerplate for react",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,18 @@
   "bugs": {
     "url": "https://github.com/furkansakar/basic-react-boilerplate/issues"
   },
-  "homepage": "https://github.com/furkansakar/basic-react-boilerplate#readme"
+  "homepage": "https://github.com/furkansakar/basic-react-boilerplate#readme",
+  "dependencies": {
+    "babel-preset-stage-1": "^6.22.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  }
 }
