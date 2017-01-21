@@ -1,0 +1,22 @@
+{
+  "name": "simple",
+  "version": "1.0.0",
+  "description": "very simple boilerplate for react",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/furkansakar/basic-react-boilerplate.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Furkan Sakar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/furkansakar/basic-react-boilerplate/issues"
+  },
+  "homepage": "https://github.com/furkansakar/basic-react-boilerplate#readme"
+}
