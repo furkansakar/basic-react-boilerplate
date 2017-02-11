@@ -1,5 +1,5 @@
 {
-  "name": "simple",
+  "name": "basic-redux-react-boilerplate",
   "version": "1.0.0",
   "description": "very simple boilerplate for react",
   "main": "index.js",
